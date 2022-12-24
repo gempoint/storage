@@ -45,4 +45,4 @@ export class MultiStorage {
 export interface FilterResults<T> {
   count: number
   items: { [x: string]: T }
-}
+}  
