@@ -1,13 +1,14 @@
 {
   "name": "storage",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.9.4"
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "prepare": "tsc"
   }
 }
